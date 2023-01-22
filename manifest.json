@@ -3,5 +3,9 @@
   "name": "PWS Gmail",
   "display": "standalone",
   "start_url": "index.html",
-  "icons": []
+  "icons": [{
+    "src": "icon-144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }]
 }
