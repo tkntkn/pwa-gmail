@@ -1,7 +1,7 @@
 const CACHE_NAME = "pwa-gmail-cache";
 
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(cache)))
+  e.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll([])))
 });
 
 self.addEventListener("fetch", (e) => {
